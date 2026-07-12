@@ -29,14 +29,6 @@ A fully responsive landing page for a gas turbine parts supply company. Built wi
 - **Contact form** with Google Maps embed
 - **Footer** with 4 columns + copyright bar
 
-## 🧠 What I Learned
-- Working with Figma designs
-- Implementing BEM methodology
-- Building complex grid layouts
-- Creating overlay effects
-- Embedding Google Maps iframe
-- Deploying to Netlify from GitHub
-
 ## 📝 License
 MIT © [shizee1](https://github.com/shizee1)
 
