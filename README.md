@@ -13,7 +13,11 @@ A fully responsive landing page for a gas turbine parts supply company. Built wi
 - **Figma** — Pixel-perfect layout implementation
 
 ## 📱 Responsive Breakpoints
-- Desktop: 1920px (full layout)
+- **Desktop:** 1920px (full layout)
+- **Laptop:** 1440px (optimized padding and font sizes)
+- **Tablet:** 1024px (2-column grids, adjusted spacing)
+- **Mobile:** 768px (stacked layout, touch-friendly)
+- **Small Mobile:** 480px (compact design for small screens)
 
 ## 🎯 Key Features
 - **Hero section** with background overlay and search
