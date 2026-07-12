@@ -41,4 +41,3 @@ MIT © [shizee1](https://github.com/shizee1)
 
 ## 🔗 Connect with Me
 - GitHub: [shizee1](https://github.com/shizee1)
-- Portfolio: *coming soon*
