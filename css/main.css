@@ -13,7 +13,7 @@ body {
 
 .hero-wrapper {
     position: relative;
-    width: 1920px;
+    width: 100%;
     min-height: 1209px;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .header {
     position: relative;
-    width: 1920px;
+    width: 100%;
     height: 70px;
     background: #0084D0;
     display: flex;
@@ -142,7 +142,7 @@ body {
 
 .navbar {
     position: relative;
-    width: 1920px;
+    width: 100%;
     height: 80px;
     background: transparent;
     display: flex;
@@ -222,7 +222,7 @@ body {
 
 .hero {
     position: relative;
-    width: 1920px;
+    width: 100%;
     min-height: 550px;
     display: flex;
     align-items: center;
@@ -310,7 +310,7 @@ body {
 
 
 .welcome {
-    width: 1920px;
+    width: 100%;
     padding: 80px 170px 80px 150px;
     background: #FFFFFF;
     display: flex;
@@ -464,7 +464,7 @@ body {
 
 
 .advantages {
-    width: 1920px;
+    width: 100%;
     padding: 80px 170px 80px 150px;
     background: #FFFFFF;
     display: flex;
@@ -564,7 +564,7 @@ body {
 
 
 .markets {
-    width: 1920px;
+    width: 100%;
     padding: 80px 170px 80px 150px;
     background: #FFFFFF;
     display: flex;
@@ -698,7 +698,7 @@ body {
 
 
 .stats {
-    width: 1920px;
+    width: 100%;
     padding: 60px 170px 60px 150px;
     background: #0084D0;
     display: flex;
@@ -748,7 +748,7 @@ body {
 
 
 .products {
-    width: 1920px;
+    width: 100%;
     padding: 80px 170px 80px 150px;
     background: #FFFFFF;
     display: flex;
@@ -868,7 +868,7 @@ body {
 
 
 .reviews {
-    width: 1920px;
+    width: 100%;
     padding: 80px 170px 80px 150px;
     background: #FFFFFF;
     display: flex;
@@ -1165,7 +1165,7 @@ body {
 
 
 .quote {
-    width: 1920px;
+    width: 100%;
     padding: 80px 170px 80px 150px;
     background: #FFFFFF;
     display: flex;
@@ -1440,7 +1440,7 @@ body {
 
 
 .cta {
-    width: 1920px;
+    width: 100%;
     padding: 80px 170px 80px 150px;
     background: #FFFFFF;
     display: flex;
@@ -1509,7 +1509,7 @@ body {
 
 
 .footer {
-    width: 1920px;
+    width: 100%;
     background: #000000;
     display: flex;
     flex-direction: column;
@@ -1680,4 +1680,710 @@ body {
     margin: 0;
     padding: 16px 0;
     text-align: center;
+}
+
+
+/* ===== АДАПТИВ ===== */
+
+/* Планшеты (1024px - 1440px) */
+@media (max-width: 1440px) {
+    .header {
+        padding: 0 60px;
+    }
+    .navbar {
+        padding: 0 60px;
+    }
+    .hero {
+        padding: 300px 60px 0;
+    }
+    .hero__title {
+        font-size: 56px;
+    }
+    .welcome {
+        padding: 60px 60px;
+    }
+    .advantages {
+        padding: 60px 60px;
+    }
+    .markets {
+        padding: 60px 60px;
+    }
+    .stats {
+        padding: 50px 60px;
+    }
+    .products {
+        padding: 60px 60px;
+    }
+    .reviews {
+        padding: 60px 60px;
+    }
+    .quote {
+        padding: 60px 60px;
+    }
+    .cta {
+        padding: 60px 60px;
+    }
+    .footer__container {
+        padding: 50px 60px 30px;
+    }
+}
+
+/* Планшеты (768px - 1024px) */
+@media (max-width: 1024px) {
+    .header {
+        padding: 0 30px;
+        height: 60px;
+    }
+    .header__left {
+        gap: 12px;
+    }
+    .header__icon-link span {
+        display: none;
+    }
+    .header__right {
+        gap: 12px;
+    }
+
+    .navbar {
+        padding: 0 30px;
+        height: 60px;
+    }
+    .navbar__menu {
+        gap: 16px;
+    }
+    .navbar__link {
+        font-size: 14px;
+    }
+    .navbar__btn {
+        width: 110px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 200px 30px 0;
+        min-height: 400px;
+    }
+    .hero__title {
+        font-size: 42px;
+    }
+    .hero__search {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .hero__input {
+        width: 100%;
+        border-radius: 6px;
+    }
+    .hero__btn {
+        width: 100%;
+        border-radius: 6px;
+        padding: 0 20px;
+    }
+
+    .welcome {
+        padding: 40px 30px;
+    }
+    .welcome__container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .welcome__title {
+        font-size: 36px;
+    }
+    .welcome__desc p {
+        font-size: 16px;
+    }
+    .welcome__image-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+    .welcome__image {
+        height: 350px;
+    }
+    .welcome__stat-block {
+        position: static;
+        margin-top: -10px;
+        margin-left: 10px;
+        box-shadow: 0 4px 20px rgba(0, 132, 208, 0.2);
+    }
+
+    .advantages {
+        padding: 40px 30px;
+    }
+    .advantages__title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .advantages__grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .advantages__card {
+        padding: 24px 20px;
+    }
+    .advantages__card-title {
+        font-size: 20px;
+    }
+    .advantages__card-desc {
+        font-size: 16px;
+    }
+
+    .markets {
+        padding: 40px 30px;
+    }
+    .markets__container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .markets__title {
+        font-size: 36px;
+    }
+    .markets__clients {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .markets__image-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .stats {
+        padding: 30px 30px;
+    }
+    .stats__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .stats__item {
+        flex: 0 0 calc(50% - 10px);
+    }
+    .stats__number {
+        font-size: 28px;
+    }
+    .stats__label {
+        font-size: 14px;
+    }
+    .stats__divider {
+        display: none;
+    }
+
+    .products {
+        padding: 40px 30px;
+    }
+    .products__title {
+        font-size: 36px;
+    }
+    .products__grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+    .products__card {
+        padding: 16px 10px;
+    }
+    .products__card-icon {
+        width: 44px;
+        height: 44px;
+        padding: 8px;
+    }
+    .products__card-text {
+        font-size: 12px;
+    }
+
+    .reviews {
+        padding: 40px 30px;
+    }
+    .reviews__title {
+        font-size: 36px;
+    }
+    .reviews__rating-block {
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px 20px;
+        align-items: flex-start;
+    }
+    .reviews__rating-title {
+        font-size: 20px;
+    }
+    .reviews__btn {
+        width: 100%;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .reviews__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+    .reviews__card {
+        padding: 16px;
+    }
+
+    .quote {
+        padding: 40px 30px;
+    }
+    .quote__wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .quote__title {
+        font-size: 36px;
+    }
+    .quote__map-wrapper iframe {
+        height: 300px;
+    }
+    .quote__form-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .quote__btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cta {
+        padding: 40px 30px;
+    }
+    .cta__container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 24px;
+        gap: 20px;
+        background: linear-gradient(135deg, #0084D0 0%, #1990D5 100%);
+    }
+    .cta__title {
+        font-size: 28px;
+    }
+    .cta__desc {
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .cta__btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr 1fr;
+        padding: 40px 30px;
+        gap: 30px;
+    }
+    .footer__column--narrow {
+        max-width: 100%;
+    }
+}
+
+/* Мобильные (до 768px) */
+@media (max-width: 768px) {
+    .header {
+        padding: 0 15px;
+        height: 50px;
+    }
+    .header__left {
+        gap: 8px;
+    }
+    .header__social a {
+        width: 26px;
+        height: 26px;
+    }
+    .header__social a img {
+        width: 12px;
+        height: 12px;
+    }
+    .header__icon-link img {
+        width: 16px;
+        height: 16px;
+    }
+    .header__icon-btn img {
+        width: 20px;
+        height: 20px;
+    }
+    .header__right {
+        gap: 8px;
+    }
+
+    .navbar {
+        padding: 0 15px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .navbar__container {
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+    }
+    .navbar__logo img {
+        height: 28px;
+    }
+    .navbar__menu {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar__link {
+        font-size: 12px;
+    }
+    .navbar__btn {
+        width: 100px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 150px 15px 0;
+        min-height: 300px;
+    }
+    .hero__title {
+        font-size: 28px;
+    }
+    .hero__search {
+        margin: 16px 0 12px;
+    }
+    .hero__input {
+        height: 42px;
+        font-size: 14px;
+    }
+    .hero__btn {
+        height: 42px;
+        font-size: 14px;
+    }
+    .hero__subtitle {
+        font-size: 14px;
+    }
+
+    .welcome {
+        padding: 30px 15px;
+    }
+    .welcome__title {
+        font-size: 28px;
+    }
+    .welcome__desc p {
+        font-size: 14px;
+    }
+    .welcome__image {
+        height: 220px;
+    }
+    .welcome__stat-block {
+        padding: 12px 16px;
+        min-width: 80px;
+    }
+    .welcome__stat-number {
+        font-size: 24px;
+    }
+    .welcome__stat-label {
+        font-size: 12px;
+    }
+    .welcome__btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .advantages {
+        padding: 30px 15px;
+    }
+    .advantages__title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .advantages__card {
+        padding: 16px;
+    }
+    .advantages__card-icon {
+        width: 52px;
+        height: 52px;
+        padding: 8px;
+    }
+    .advantages__card-title {
+        font-size: 18px;
+    }
+    .advantages__card-desc {
+        font-size: 14px;
+    }
+
+    .markets {
+        padding: 30px 15px;
+    }
+    .markets__title {
+        font-size: 28px;
+    }
+    .markets__badge {
+        font-size: 12px;
+    }
+    .markets__client {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+    .markets__footer {
+        padding: 16px;
+    }
+    .markets__btn {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 20px;
+    }
+
+    .stats {
+        padding: 20px 15px;
+    }
+    .stats__container {
+        gap: 12px;
+    }
+    .stats__item {
+        flex: 0 0 calc(50% - 6px);
+    }
+    .stats__number {
+        font-size: 22px;
+    }
+    .stats__label {
+        font-size: 11px;
+    }
+
+    .products {
+        padding: 30px 15px;
+    }
+    .products__title {
+        font-size: 28px;
+    }
+    .products__desc {
+        font-size: 14px;
+    }
+    .products__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .products__card {
+        padding: 12px 8px;
+    }
+    .products__card-icon {
+        width: 36px;
+        height: 36px;
+        padding: 6px;
+    }
+    .products__card-text {
+        font-size: 11px;
+    }
+
+    .reviews {
+        padding: 30px 15px;
+    }
+    .reviews__title {
+        font-size: 28px;
+    }
+    .reviews__badge {
+        font-size: 12px;
+    }
+    .reviews__rating-block {
+        padding: 12px 16px;
+    }
+    .reviews__rating-left {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .reviews__google-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .reviews__rating-title {
+        font-size: 16px;
+    }
+    .reviews__rating-score {
+        font-size: 16px;
+    }
+    .reviews__stars {
+        gap: 1px;
+    }
+    .reviews__star-icon {
+        width: 14px;
+        height: 14px;
+    }
+    .reviews__btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .reviews__grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .reviews__card {
+        padding: 14px;
+    }
+    .reviews__card-avatar {
+        width: 32px;
+        height: 32px;
+    }
+    .reviews__card-name {
+        font-size: 13px;
+    }
+    .reviews__card-date {
+        font-size: 11px;
+    }
+    .reviews__card-google-icon {
+        width: 56px;
+        height: 18px;
+    }
+    .reviews__card-text {
+        font-size: 13px;
+    }
+
+    .quote {
+        padding: 30px 15px;
+    }
+    .quote__title {
+        font-size: 28px;
+    }
+    .quote__subtitle {
+        font-size: 14px;
+    }
+    .quote__map-wrapper iframe {
+        height: 200px;
+    }
+    .quote__social {
+        justify-content: center;
+    }
+    .quote__info-card {
+        padding: 16px;
+    }
+    .quote__info-title {
+        font-size: 16px;
+    }
+    .quote__info-address {
+        font-size: 13px;
+    }
+    .quote__info-rating {
+        gap: 4px;
+    }
+    .quote__form-row {
+        gap: 12px;
+    }
+    .quote__input,
+    .quote__textarea {
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+    .quote__btn {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .cta {
+        padding: 30px 15px;
+    }
+    .cta__container {
+        padding: 24px 16px;
+        gap: 16px;
+    }
+    .cta__title {
+        font-size: 22px;
+    }
+    .cta__desc {
+        font-size: 13px;
+    }
+    .cta__btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        padding: 30px 15px;
+        gap: 24px;
+    }
+    .footer__heading {
+        font-size: 14px;
+    }
+    .footer__desc,
+    .footer__link,
+    .footer__lang,
+    .footer__contact,
+    .footer__hours {
+        font-size: 13px;
+    }
+    .footer__social {
+        justify-content: center;
+    }
+    .footer__bottom {
+        padding: 0 15px;
+    }
+    .footer__copy {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+}
+
+/* Очень маленькие экраны (до 480px) */
+@media (max-width: 480px) {
+    .navbar__menu {
+        gap: 6px;
+    }
+    .navbar__link {
+        font-size: 10px;
+    }
+    .navbar__btn {
+        width: 80px;
+        height: 28px;
+        font-size: 10px;
+    }
+    .navbar__btn img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .hero__title {
+        font-size: 22px;
+    }
+    .hero__subtitle {
+        font-size: 12px;
+    }
+
+    .welcome__title {
+        font-size: 24px;
+    }
+    .welcome__image {
+        height: 180px;
+    }
+
+    .advantages__title {
+        font-size: 24px;
+    }
+    .advantages__card-icon {
+        width: 44px;
+        height: 44px;
+    }
+    .advantages__card-title {
+        font-size: 16px;
+    }
+
+    .products__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+    .products__card {
+        padding: 10px 6px;
+    }
+    .products__card-icon {
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+    }
+    .products__card-text {
+        font-size: 10px;
+    }
+
+    .reviews__rating-title {
+        font-size: 14px;
+    }
+    .reviews__rating-stars-row {
+        gap: 4px;
+        flex-wrap: wrap;
+    }
+    .reviews__rating-score {
+        font-size: 14px;
+    }
+
+    .cta__title {
+        font-size: 18px;
+    }
 }
