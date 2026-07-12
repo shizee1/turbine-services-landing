@@ -5,19 +5,6 @@ A fully responsive landing page for a gas turbine parts supply company. Built wi
 ## 🚀 Live Demo
 [View the site](https://heartfelt-brioche-2d7026.netlify.app)
 
-## 📁 Project Structure
-
-turbine-services-landing/
-├── index.html # Main page
-├── css/
-│ └── main.css # All styles (BEM methodology)
-├── images/
-│ ├── Icon/ # SVG icons
-│ ├── Reviews/ # Review avatars & Google logo
-│ └── ... # Other images
-└── README.md
-
-
 
 ## 🛠️ Tech Stack
 - **HTML5** — Semantic markup
